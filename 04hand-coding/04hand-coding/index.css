@@ -1,3 +1,164 @@
+/* universal rules */
+
 * {
-    
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  background-color: black;
+}
+
+/* start header */
+
+header {
+  /* put gojira art as bckgrnd here */
+  background-color: #27100a;
+  color: #dea743;
+  text-align: center;
+  padding: 1rem 0;
+  width: 80%;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+header p {
+  font-weight: 100;
+  font-size: small;
+  color: #86bfbd;
+}
+
+/* start nav */
+
+nav {
+  background-color: #445864;
+  width: 80%;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  justify-content: center;
+}
+
+nav li a {
+  color: #dea743;
+  padding: 0.5rem 1.5rem;
+  display: block;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #efb854;
+  color: #556975;
+}
+
+/* start main */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  /* gojira art goes here */
+  background-color: #333;
+  color: #efb854;
+  padding: 1rem;
+}
+
+main h1 {
+  width: 65%;
+  text-align: center;
+  background-color: #27100a;
+}
+
+.homeNav {
+  background-color: #27100a;
+  padding: 1rem;
+  width: 65%;
+}
+
+.homeNav li a:hover {
+  color: #38211b;
+}
+
+main h2 {
+  width: 65%;
+  text-align: center;
+  padding: 1rem;
+  background-color: #27100a;
+}
+
+main p {
+  width: 65%;
+  text-align: center;
+  padding: 1rem;
+  color: #86bfbd;
+  background-color: #27100a;
+}
+
+main p a {
+  color: #dea743;
+  text-decoration: none;
+}
+
+main p a:hover {
+  text-decoration: underline;
+}
+
+main div {
+  background-color: #27100a;
+  width: 65%;
+  text-align: center;
+  place-items: center;
+}
+
+main div dl {
+  padding: 0 4rem 2rem 4rem;
+}
+
+main div dl dt {
+  padding-top: 2rem;
+}
+
+main div dl dd {
+  color: #86bfbd;
+}
+
+.mainList {
+  background-color: #27100a;
+  width: 65%;
+  text-align: center;
+}
+
+.mainList figcaption {
+  padding: 2rem;
+}
+
+/* start footer */
+
+footer {
+  background-color: #445864;
+  width: 80%;
+  text-align: center;
+  color: #dea743;
+  padding: 1rem;
+}
+
+footer a {
+  color: #dea743;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
