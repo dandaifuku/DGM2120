@@ -98,14 +98,26 @@ main {
   padding: 1rem;
 }
 
-#bandimg {
+.bandimg {
   width: 30%;
-  height: auto;
   margin: 0 0 0 2%;
   float: right;
   min-width: 150px;
   max-width: 300px;
 }
+
+.bandimg img {
+  width: 100%;
+  height: auto;
+}
+
+.bandimg figcaption {
+  text-align: center;
+  font-size: x-small;
+  width: 100%;
+  color: #dea743;
+  clear: both;
+  }
 
 main h1 {
   width: 65%;
@@ -119,16 +131,27 @@ main h1 {
   background-color: transparent;
 }
 
+.homeNav li a {
+  color: #86bfbd;
+}
+
 .homeNav li a:hover {
   text-decoration: underline;
   background-color: transparent;
-  color: #efb854;
+  color: #86bfbd;
 }
 
 main h2 {
   width: 65%;
   text-align: center;
   padding: 1rem;
+}
+
+#floatingSucks {
+  width: 65%;
+  text-align: center;
+  padding-bottom: 1rem;
+  color: #86bfbd;
 }
 
 main p {
