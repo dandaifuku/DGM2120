@@ -189,12 +189,11 @@ main div dl dd {
 }
 
 .mainList {
-  width: 65%;
   text-align: center;
 }
 
 .mainList img {
-  width: 50%;
+  width: auto;
   height: auto;
   min-width: 150px;
   max-width: 300px;
@@ -202,6 +201,16 @@ main div dl dd {
 
 .mainList figcaption {
   padding: .5rem 2rem 2rem 2rem;
+}
+
+.art {
+  margin: 2rem;
+}
+
+.artList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 
