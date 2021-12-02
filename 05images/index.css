@@ -91,7 +91,7 @@ main {
   align-items: center;
   width: 100%;
   background-color: #27100a;
-  /* gojira art goes here */
+  /* gojira art goes here - note: couldnt really pass the speed test as the background image needs to be so big and still have quality to it. I passed with a B but the page size was 2MB soo....  */
   background: url(images/gojira-background.jpeg) no-repeat center center fixed;
   background-size: cover;
   color: #dea743;
