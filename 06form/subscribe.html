@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Dan Fordiani" />
+    <meta
+      name="description"
+      content="To share things I find interesting about Gojira, and things surrounding Gojira. Also, to have a place newcomers to Gojira can come to that lets them easily find cool articles about Gojira and links to other Gojira communities."/>
+    <title>Gojira FanPage</title>
+    <link href="index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap"
+      rel="stylesheet"/>
+  </head>
+  <body>
+    <!-- start header -->
+    <header id="top">
+      <h1>Gojira Fan Page</h1>
+      <p>If you're here, you're a metalhead!</p>
+    </header>
+    <!-- start nav -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="subscribe.html" class="active">Subscribe</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="artwork.html">Artwork/Fanart</a></li>
+        <li><a href="reddit.html">Reddit</a></li>
+        <li><a href="discord.html">Discord</a></li>
+      </ul>
+    </nav>
+    <!-- start main -->
+    <main>
+      <h1>Subscribe</h1>
+        <p>Subscribe to recieve updates on all things Gojira related! This includes new music, merch, announcements, news, and exclusive content!</p>
+
+
+        <form method="GET" class="myForm" action="thanks.html">
+            
+            <fieldset>
+
+            <legend>Subscriber Information</legend>
+            <label>Email Address*<input type="email" name="email" required></label>
+            <label>Name*<input type="text" name="fname" required></label>
+            <label>Cell Number*<input type="tel" name="phone" required placeholder="555-555-5555"></label>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Choose what types of content you'd like to recieve!</legend>
+                <label><input type="checkbox" name="BoxSelect[]" value="news"> News and Exclusive Content</label>
+                <label><input type="checkbox" name="BoxSelect[]" value="music"> New Music News</label>
+                <label><input type="checkbox" name="BoxSelect[]" value="merch"> Merch Drops and Deals</label> 
+                <label><input type="checkbox" name="BoxSelect[]" value="announcements"> Official Announcements</label> 
+
+                <label>Preferred Email Type*
+                <select required name="emailType">
+                    <option value="">Please Select - (hover for description!)</option>
+                    <option value="monthly" title="A monthly thank you letter from our team, including special deals and extra entry opportunities for our yearly giveaway! (You will still get your normal updates as usual!)">Monthly</option>
+                    <option value="onlySelect" title="Whenever anything new you selected from Gojira happens, you'll recieve an email!">Only Selected Content</option>
+                </select>
+            </label>
+
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Would you like to recieve content from other artists similar to Gojira?</legend>
+                <label><input type="radio" name="method" value="yes" required>Yes! Gimme the goodies!</label>
+                <label><input type="radio" name="method" value="no" required>No thanks, I'll pass.</label>
+            </fieldset>
+
+            <label>Questions
+                <textarea name="questions"></textarea>
+            </label>
+
+        <input type="submit" value="Stay Up to Date!">
+        </form>
+        
+    </main>
+    <!-- start footer -->
+    <footer>
+      &copy; 2021 &bull; Dan Fordiani &bull; For Educational Purposes Only
+      &bull;
+      <a href="mailto:#">Email Us</a> &bull;
+      <a href="tel:605-475-6968">Call Us</a> <br />
+      &bull; <a href="#top">Back to Top</a>
+    </footer>
+  </body>
+</html>
