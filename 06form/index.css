@@ -213,6 +213,50 @@ main div dl dd {
   justify-content: center;
 }
 
+.myForm fieldset {
+  border: 1px solid;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  color: #86bfbd;
+}
+
+.myForm legend {
+  font-size: .8rem;
+  color: #dea743;
+}
+
+
+.myForm label {
+  margin: .5rem;
+  color: #dea743;
+}
+
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm textarea {
+  display: block;
+
+}
+
+.myForm [type=text], .myForm [type=tel], .myForm select, .myForm textarea {
+  border: solid 1px #888;
+  padding: .3rem;
+  width: 250px;
+  border-radius: .3rem;
+  font-weight: 200;
+}
+
+.myForm textarea {
+  height: 6rem;
+}
+
+.myForm [type=submit] {
+  background-color: transparent;
+  border: 2px solid #dea743;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  color: #dea743;
+  margin: 1rem 0 0 1vw;
+  cursor: pointer;
+}
 
 
 /* start footer */

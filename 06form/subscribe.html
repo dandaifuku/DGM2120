@@ -44,20 +44,20 @@
             <fieldset>
 
             <legend>Subscriber Information</legend>
-            <label>Email Address*<input type="email" name="email" required></label>
-            <label>Name*<input type="text" name="fname" required></label>
-            <label>Cell Number*<input type="tel" name="phone" required placeholder="555-555-5555"></label>
+            <label>Email Address<input type="email" name="email" required></label>
+            <label>Name<input type="text" name="fname" required></label>
+            <label>Cell Number<input type="tel" name="phone" required placeholder="555-555-5555"></label>
             </fieldset>
 
 
             <fieldset>
-                <legend>Choose what types of content you'd like to recieve!</legend>
+                <legend>Choose what types of content you'd like to recieve! (Please select at least one)</legend>
                 <label><input type="checkbox" name="BoxSelect[]" value="news"> News and Exclusive Content</label>
                 <label><input type="checkbox" name="BoxSelect[]" value="music"> New Music News</label>
                 <label><input type="checkbox" name="BoxSelect[]" value="merch"> Merch Drops and Deals</label> 
                 <label><input type="checkbox" name="BoxSelect[]" value="announcements"> Official Announcements</label> 
 
-                <label>Preferred Email Type*
+                <label>Preferred Email Type
                 <select required name="emailType">
                     <option value="">Please Select - (hover for description!)</option>
                     <option value="monthly" title="A monthly thank you letter from our team, including special deals and extra entry opportunities for our yearly giveaway! (You will still get your normal updates as usual!)">Monthly</option>
@@ -74,11 +74,11 @@
                 <label><input type="radio" name="method" value="no" required>No thanks, I'll pass.</label>
             </fieldset>
 
-            <label>Questions
+            <label class="needsCentered">Questions
                 <textarea name="questions"></textarea>
             </label>
 
-        <input type="submit" value="Stay Up to Date!">
+        <input type="submit" value="Stay Up to Date!" class="needsCentered">
         </form>
         
     </main>
