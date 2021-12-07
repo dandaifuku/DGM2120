@@ -144,6 +144,18 @@ main {
   margin: 0 auto;
 }
 
+
+.gojiraHero {
+  width: 100%;
+  margin: 0;
+  padding: 3rem;
+}
+.gojiraHero img {
+  width: 100%;
+  height: auto;
+}
+
+
 .bandimg {
   width: 30%;
   margin: 0 0 0 2%;
