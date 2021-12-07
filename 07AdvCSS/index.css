@@ -1,0 +1,314 @@
+/* universal rules */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+  line-height: 1.75rem;
+  letter-spacing: 0.017rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  background-color: black;
+  background: url(images/gojira-background.jpeg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* header and nav inside both media queries */
+
+/* small screens */
+@media only screen and (max-width: 624px) {
+  header {
+    background-color: #27100a;
+    color: #dea743;
+    padding: 1rem 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  header img {
+    padding-right: 0.5rem;
+  }
+  header h1 {
+    padding-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  header p {
+    font-weight: 100;
+    font-size: small;
+    color: #86bfbd;
+  }
+
+  nav {
+    background-color: #445864;
+    width: 100%;
+  }
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+  }
+  nav li a {
+    color: #dea743;
+    display: block;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+  }
+  nav li a:hover {
+    background-color: #efb854;
+    color: #556975;
+  }
+
+  .active {
+    background-color: #334753;
+    background-image: linear-gradient(to bottom, #334753, #223642);
+  }
+  .active:hover {
+    color: #dea743;
+    background-color: #334753;
+  }
+}
+
+/* big screens */
+@media only screen and (min-width: 625px) {
+  header {
+    background-color: #27100a;
+    color: #dea743;
+    text-align: center;
+    padding: 1rem 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  header img {
+    padding-right: 0.5rem;
+  }
+  header h1 {
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  header p {
+    font-weight: 100;
+    font-size: small;
+    color: #86bfbd;
+  }
+
+  nav {
+    background-color: #445864;
+    width: 100%;
+  }
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+  }
+  nav li a {
+    color: #dea743;
+    padding: 0.5rem 1.5rem;
+    display: block;
+    text-decoration: none;
+  }
+  nav li a:hover {
+    background-color: #efb854;
+    color: #556975;
+  }
+
+  .active {
+    background-color: #334753;
+    background-image: linear-gradient(to bottom, #334753, #223642);
+  }
+  .active:hover {
+    color: #dea743;
+    background-color: #334753;
+  }
+}
+
+/* start main */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  color: #dea743;
+  padding: 1rem;
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.bandimg {
+  width: 30%;
+  margin: 0 0 0 2%;
+  float: right;
+  /* min-width: 150px; */
+  max-width: 300px;
+}
+.bandimg img {
+  width: 100%;
+  height: auto;
+}
+.bandimg figcaption {
+  text-align: center;
+  font-size: x-small;
+  width: 100%;
+  color: #dea743;
+  clear: both;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+main h1 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.homeNav {
+  padding: 1rem;
+  background-color: transparent;
+}
+.homeNav li a {
+  color: #86bfbd;
+}
+.homeNav li a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+  color: #86bfbd;
+}
+
+main h2 {
+  width: 65%;
+  text-align: center;
+  padding: 1rem;
+}
+
+#floatingSucks {
+  text-align: center;
+  padding-bottom: 1rem;
+  color: #86bfbd;
+}
+
+main p {
+  width: 65%;
+  text-align: center;
+  padding: 1rem;
+  color: #86bfbd;
+}
+main p a {
+  color: #dea743;
+  text-decoration: none;
+}
+main p a:hover {
+  text-decoration: underline;
+}
+
+main div {
+  text-align: center;
+  place-items: center;
+}
+main div dl {
+  padding: 0 4rem 2rem 4rem;
+}
+main div dl dt {
+  padding-top: 2rem;
+}
+main div dl dd {
+  color: #86bfbd;
+}
+
+.mainList {
+  max-width: 300px;
+  text-align: center;
+}
+.mainList img {
+  width: 100%;
+  height: auto;
+}
+.mainList figcaption {
+  padding: 0.5rem 2rem 2rem 2rem;
+}
+
+.art {
+  margin: 2rem;
+}
+.artList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.myForm fieldset {
+  border: 1px solid;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  color: #86bfbd;
+}
+.myForm legend {
+  font-size: 0.8rem;
+  color: #dea743;
+}
+.myForm label {
+  margin: 0.5rem;
+  color: #dea743;
+}
+.myForm label,
+.myForm select,
+.myForm [type="text"],
+.myForm [type="tel"],
+.myForm textarea {
+  display: block;
+}
+.myForm [type="text"],
+.myForm [type="tel"],
+.myForm select,
+.myForm textarea {
+  border: solid 1px #888;
+  padding: 0.3rem;
+  width: 250px;
+  border-radius: 0.3rem;
+  font-weight: 200;
+}
+.myForm textarea {
+  height: 6rem;
+}
+.myForm [type="submit"] {
+  background-color: transparent;
+  border: 2px solid #dea743;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  color: #dea743;
+  margin: 1rem 0 0 1vw;
+  cursor: pointer;
+}
+
+.link {
+  color: #dea743;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+/* start footer */
+
+footer {
+  background-color: #445864;
+  width: 100%;
+  text-align: center;
+  color: #dea743;
+  padding: 1rem;
+}
+footer a {
+  color: #dea743;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
